@@ -11,7 +11,7 @@ images = ["v2raya.png"]
 ogLocale = "zh_cn"
 ogImageHeight = "320"
 ogImageWidth = "640"
-domainTLD = "v2raya.org"
+domainTLD = "yangmao.ikxiuxin.com"
 titleHome = "v2rayA Doc"
 
 ## Twitter Cards
