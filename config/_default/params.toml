@@ -11,7 +11,7 @@ images = ["v2raya.png"]
 ogLocale = "zh_cn"
 ogImageHeight = "320"
 ogImageWidth = "640"
-domainTLD = "ikxiuxin.com"
+domainTLD = "yangmao.ikxiuxin.com"
 titleHome = "v2rayA Doc"
 
 ## Twitter Cards
@@ -34,7 +34,7 @@ schemaImageWidth = 289
 schemaImageHeight = 117
 schemaTwitter = ""
 schemaLinkedIn = ""
-schemaGitHub = "https://ikxiuxin.com"
+schemaGitHub = "https://yangmao.ikxiuxin.com"
 schemaSection = "blog"
 
 ## Sitelinks Search Box
