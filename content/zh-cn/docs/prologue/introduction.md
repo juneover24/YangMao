@@ -15,23 +15,23 @@ toc: true
 
 ## 起步
 
-本章对 《修欣(心)》 进行介绍。
+本章对 JuneOver24的羊毛库 进行介绍。
 
 ### 下载与安装
 
 {{% notice info %}}
-如果你已经安装了 v2ray-core 和 v2rayA，可以跳过此节。
+如果你已经安装了 docker 和 qinglong 面板，可以跳过此节。
 {{% /notice %}}
 
-这一节介绍了如何在各个 Linux 发行版以及 Docker 中运行 v2rayA。 [下载与安装 →]({{% relref "installation" %}})
+这一节介绍了如何在安装 docker 和 qinglong 面板。 [下载与安装 →]({{% relref "installation" %}})
 
 ### 快速上手
 
 {{% notice info %}}
-如果你对 v2rayA 的基本使用已轻车熟路，可以跳过此节。
+如果你对 qinglong 的基本使用已轻车熟路，可以跳过此节。
 {{% /notice %}}
 
-这一节将对 v2rayA 的基本使用规则进行介绍。 [快速上手 →]({{% relref "quick-start" %}})
+这一节将对 qinglong 的基本使用规则进行介绍。 [快速上手 →]({{% relref "quick-start" %}})
 
 ## 文章精选
 
