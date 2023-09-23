@@ -27,7 +27,7 @@ toc: true
 apt -y update && apt -y install curl wget
 ```
 
-- 使用root用户登录centos系统，后执行以下命令安装curl
+使用root用户登录centos系统，后执行以下命令安装curl
 ```sh
 yum install -y curl wget
 ```
