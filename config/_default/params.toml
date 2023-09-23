@@ -1,7 +1,7 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "v2rayA"
+title = "XiuXin"
 titleSeparator = "-"
 titleAddition = "文档"
 description = "v2rayA 是一个支持全局透明代理的 V2Ray Linux 客户端，同时兼容SS、SSR、Trojan(trojan-go)、PingTunnel协议。"
@@ -11,7 +11,7 @@ images = ["v2raya.png"]
 ogLocale = "zh_cn"
 ogImageHeight = "320"
 ogImageWidth = "640"
-domainTLD = "yangmao.ikxiuxin.com"
+domainTLD = "ikxiuxin.com"
 titleHome = "v2rayA Doc"
 
 ## Twitter Cards
@@ -24,7 +24,7 @@ schemaName = "v2rayA"
 schemaAuthor = "v2rayA"
 schemaAuthorTwitter = ""
 schemaAuthorLinkedIn = ""
-schemaAuthorGitHub = "https://github.com/v2rayA"
+schemaAuthorGitHub = "https://github.com/juneover24/XiuXinWeb"
 schemaLocale = "zh-CN"
 schemaLogo = "android-chrome-512x512.png"
 schemaLogoWidth = 512
@@ -34,7 +34,7 @@ schemaImageWidth = 289
 schemaImageHeight = 117
 schemaTwitter = ""
 schemaLinkedIn = ""
-schemaGitHub = "https://github.com/v2rayA/v2raya.github.io"
+schemaGitHub = "https://ikxiuxin.com"
 schemaSection = "blog"
 
 ## Sitelinks Search Box
@@ -51,22 +51,22 @@ portraitPhotoWidths = [800, 700, 600, 500]
 lqipWidth = "20x"
 
 # Footer
-footer = "CC-BY-SA | Copyright (c) 2021 - {year} 24 Organization"
-copyright = "Copyright (c) 2021 - {year} 24 Organization"
+footer = "CC-BY-SA | Copyright (c) 2021 - {year} XiuXin Organization"
+copyright = "Copyright (c) 2021 - {year} XiuXin Organization"
 
 # Alert
 alert = false
 alertText = "Like v2rayA? <a class=\"alert-link\" href=\"https://github.com/v2rayA/v2rayA/stargazers\">Star on GitHub</a>. Thanks!</a>"
 
 # Edit Page
-docsRepo = "https://github.com/v2rayA/v2raya.github.io"
+docsRepo = "https://github.com/juneover24/XiuXinWeb"
 editPage = true
 
 # Contributors
 githubContributors = true
-githubUser = "v2raya"
-githubRepo = "v2raya"
-githubDocRepo = "v2raya.github.io"
+githubUser = "XiuXinWeb"
+githubRepo = "XiuXinWeb"
+githubDocRepo = "juneover24.github.io"
 githubDocTree = "main"
 githubContributorsAPI = ""
 

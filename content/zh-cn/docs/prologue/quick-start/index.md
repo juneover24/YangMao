@@ -15,7 +15,7 @@ toc: true
 
 ## 准备
 
-如果你还未安装 v2rayA 或 v2ray-core，请参阅[安装]({{% relref "installation" %}})一节。如果你需要更换其他的核心，如 Xray-core，请参阅[使用其他核心]({{% relref "use-other-core" %}})一节。
+如果你还未安装 v2rayA 或 v2ray-core，请参阅[安装]({{% relref "article" %}})一节。如果你需要更换其他的核心，如 Xray-core，请参阅[使用其他核心]({{% relref "use-other-core" %}})一节。
 
 ## 开始
 
