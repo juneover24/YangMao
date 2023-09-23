@@ -23,12 +23,12 @@ toc: true
 {{% /notice %}}
 
 使用root用户登录ubuntu或者debian系统，后执行以下命令安装curl
-```sh
+```bash
 apt -y update && apt -y install curl wget
 ```
 
 使用root用户登录centos系统，后执行以下命令安装curl
-```sh
+```bash
 yum install -y curl wget
 ```
 
@@ -37,11 +37,11 @@ yum install -y curl wget
 使用一键脚本安装
 
 国外鸡地址
-```sh
+```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/1302557841/QL/main/lang1.sh)"
 ```
 国内鸡地址
-```sh
+```bash
 bash -c "$(curl -fsSL https://git.gushao.club/https://raw.githubusercontent.com/1302557841/QL/main/lang1.sh)"
 ```
 
