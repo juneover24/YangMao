@@ -13,15 +13,37 @@ weight: 20
 toc: true
 ---
 
-## 准备
+## 准备搭建qinglong面板
 
-如果你还未安装 v2rayA 或 v2ray-core，请参阅[安装]({{% relref "article" %}})一节。如果你需要更换其他的核心，如 Xray-core，请参阅[使用其他核心]({{% relref "use-other-core" %}})一节。
+本文依照amd64架构搭建，理论适配其他架构。
+为防止系统未安装curl，使用不了一键命令，使用一键安装青龙面板命令之前先执行一次安装curl命令。
+
+{{% notice info %}}
+安装curl请注意区分系统，openwrt千万别另外安装curl，openwrt本身自带了，另外安装还会用不了。
+{{% /notice %}}
+
+使用root用户登录ubuntu或者debian系统，后执行以下命令安装curl
+```sh
+apt -y update && apt -y install curl wget
+```
+
+- 使用root用户登录centos系统，后执行以下命令安装curl
+```sh
+yum install -y curl wget
+```
 
 ## 开始
 
-如果你通过 2017 端口 如 <http://localhost:2017> 无法访问 UI 界面，请检查你的服务是否已经启动。[相关问题](https://github.com/v2rayA/v2rayA/issues/237)
+使用一键脚本安装
 
-接下来进入 UI，本节将介绍 v2rayA 的基本操作流程。
+国外鸡地址
+```sh
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/1302557841/QL/main/lang1.sh)"
+```
+国内鸡地址
+```sh
+bash -c "$(curl -fsSL https://git.gushao.club/https://raw.githubusercontent.com/1302557841/QL/main/lang1.sh)"
+```
 
 ### 创建账号
 
