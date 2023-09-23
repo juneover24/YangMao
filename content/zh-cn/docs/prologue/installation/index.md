@@ -1,7 +1,7 @@
 ---
-title: "快速上手"
-description: "快速上手 v2rayA"
-lead: "本节将介绍 v2rayA 最基本的使用方法。"
+title: "下载与安装"
+description: "下载与安装"
+lead: "本节将介绍 qinglong 最基本的使用方法。"
 date: 2020-11-16T13:59:39+01:00
 lastmod: 2020-11-16T13:59:39+01:00
 draft: false
