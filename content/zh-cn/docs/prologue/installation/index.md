@@ -52,11 +52,69 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/1302557841/QL/main/lang1
 bash -c "$(curl -fsSL https://git.gushao.club/https://raw.githubusercontent.com/1302557841/QL/main/lang1.sh)"
 ```
 
-### 创建账号
+## 设置虚拟内存
 
-![创建账号](images/create-account.png)
+查看系统是否配置swap
 
-在第一次进入页面时，你需要创建一个管理员账号，请妥善保管你的用户名密码，如果遗忘，使用`sudo v2raya --reset-password`命令重置。
+```bash
+swapon --show
+```
+
+查看当前系统swap阈值
+
+```bash
+cat /proc/sys/vm/swappiness
+```
+
+修改虚拟内存阈值
+
+```bash
+echo "vm.swappiness = 60" >>  /etc/sysctl.conf
+```
+
+启用内存阈值设置(永久修改)
+
+```bash
+sysctl -p
+```
+
+创建swap分区文件(10G)
+
+```bash
+cd /opt
+dd if=/dev/zero of=swapfile bs=1M count=10240
+mkswap swapfile
+```
+
+启用虚拟内存
+
+```bash
+swapon swapfile
+```
+
+永久设置，开机自动mount
+
+```bash
+nano /etc/fstab 
+```
+
+写入如下内容
+
+```bash
+/opt/swapfile    swap        swap    defaults        0 0
+```
+
+查看当前内存
+
+```bash
+free -h
+```
+
+关闭虚拟内存
+
+```bash
+swapoff swapfile
+```
 
 ### 导入节点
 

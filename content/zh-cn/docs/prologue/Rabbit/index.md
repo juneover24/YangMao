@@ -51,7 +51,7 @@ docker run  --restart=always  --name rabbitpro -p 5701:1234  -d  -v  /opt/Rabbit
 
 进入配置页面，修改管理员账号密码，填写RabbitToken，修改对应配置
 
-#### ServerHost
+### ServerHost
 
 可用ServerHost（选择能用的即可）:
 
@@ -71,7 +71,7 @@ mr.yanyuwangluo.cn:1202
 
  (烟雨提供)
 
-#### 转换Cron
+### 转换Cron
 
 转换Cron(每4个小时一次)，请打开右侧按钮再修改！！！！
 
@@ -79,7 +79,7 @@ mr.yanyuwangluo.cn:1202
 0 */4 * * *
 ```
 
-#### 同步CK
+### 同步CK
 
 同步CK(每2个小时一次)，请打开右侧按钮再修改！！！！
 
@@ -87,13 +87,13 @@ mr.yanyuwangluo.cn:1202
 0 */2 * * *
 ```
 
-#### WXPUSHER_APP_TOKEN
+### WXPUSHER_APP_TOKEN
 
 WXPUSHER_APP_TOKEN
 
 全局配置的WxPusher:https://wxpusher.zjiecode.com/admin/main/app/appToken
 
-#### WXPUSHER_UID
+### WXPUSHER_UID
 
 WXPUSHER_UID
 
