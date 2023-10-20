@@ -116,11 +116,11 @@ free -h
 swapoff swapfile
 ```
 
-### 导入节点
+### docker自启动
 
-![导入节点](images/import-servers.png)
-
-以创建或导入的方式导入节点，导入支持节点链接、订阅链接、扫描二维码和批量导入等方式。
+```bash
+docker update --restart=always id
+```
 
 ### 连接节点和启动服务
 
