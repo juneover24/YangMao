@@ -30,7 +30,7 @@ toc: true
 许可与TG绑定！！！！！
 {{% /notice %}}
 
-## 开始
+## 安装RabbitPro
 
 如果你已经安装了docker
 
