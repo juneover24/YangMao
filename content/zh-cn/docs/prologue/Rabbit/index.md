@@ -91,16 +91,16 @@ mr.yanyuwangluo.cn:1202
 
 WXPUSHER_APP_TOKEN
 
-全局配置的WxPusher:https://wxpusher.zjiecode.com/admin/main/app/appToken
+全局配置的WxPusher:[https://wxpusher.zjiecode.com/admin/main/app/appToken](https://t.me/RabbitOneA)
 
 ### WXPUSHER_UID
 
 WXPUSHER_UID
 
-全局配置的WXuuid:https://wxpusher.zjiecode.com/admin/main/app/appFollow 微信扫码 然后在微信找
+全局配置的WXuuid:[https://wxpusher.zjiecode.com/admin/main/app/appFollow](https://t.me/RabbitOneA) 微信扫码 然后在微信找
 
 ### 容器管理中的WxPusher
 
 WxPusher
 
-全局配置的WxPusher:https://wxpusher.zjiecode.com/admin/main/app/appToken
+全局配置的WxPusher:[https://wxpusher.zjiecode.com/admin/main/app/appToken](https://t.me/RabbitOneA)
