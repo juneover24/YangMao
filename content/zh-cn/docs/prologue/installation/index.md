@@ -116,7 +116,7 @@ free -h
 swapoff swapfile
 ```
 
-### docker自启动
+## docker自启动
 
 ```bash
 docker update --restart=always id
