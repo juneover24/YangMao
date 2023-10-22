@@ -124,8 +124,19 @@ docker update --restart=always id
 
 ## elm面板（自用）
 
+```bash
 docker run --restart=always -id \
 --name elmmb -p 3000:3000 \
 -v /opt/elmmb:/etc/lb/Config \
 --privileged=true \
 luobook/elmmb:latest
+```
+
+```bash
+docker run -d --restart=always --name qsign -p {host_port}:8080 -e BASE_PATH=/srv/qsign/qsign/txlib/8.9.63 xzhouqd/qsign:core-1.1.7
+```
+
+```bash
+sudo curl -L https://github.com/docker/compose/releases/download/v2.21.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+```
