@@ -25,7 +25,7 @@ toc: true
 /narksq@NolanNarkbot
 ```
 
-再发送 
+再发送
 
 ```bash
 /check@NolanNarkbot
@@ -46,7 +46,7 @@ toc: true
 sudo docker run -id \
 --name pro -p 5016:5016 \
 -v /opt/NarkPro:/app/Data \
--e Prolic=第2步获取的授权用txt格式打开后的代码 \
+-e Prolic=第2步获取的Proid \
 -e User=自定义管理帐号 \
 -e Pwd=自定义管理密码(八位以上包含大小写字母、数字或特殊字符) \
 -e ServerProxy=这里填写反代地址 \
