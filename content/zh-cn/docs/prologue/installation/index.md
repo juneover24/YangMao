@@ -121,3 +121,11 @@ swapoff swapfile
 ```bash
 docker update --restart=always id
 ```
+
+## elm面板（自用）
+
+docker run --restart=always -id \
+--name elmmb -p 3000:3000 \
+-v /opt/elmmb:/etc/lb/Config \
+--privileged=true \
+luobook/elmmb:latest
