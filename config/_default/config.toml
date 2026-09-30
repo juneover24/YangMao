@@ -10,13 +10,6 @@ languageCode = "zh-cn"
 paginate = 7
 refLinksErrorLevel = 'WARNING'
 rssLimit = 10
-
-# 贡献者 API（api.xuann.wang）域名已失效，resources.GetRemote 拉取失败属预期；
-# 不忽略会导致 hugo 以 "logged N error(s)" 退出、阻断 Pages 构建。
-# 必须放在文件根部 TOML 裸键区（[section]/[[array]] 之前），否则会被解析进上一个表。
-# 0.124+ 官方键名为 ignoreLogs（旧名 ignoreErrors 仅为兼容别名，development/netlify-preview 沿用旧名）。
-# Hugo 0.92.1 不支持该配置，必须配合 package.json otherDependencies.hugo 升级版本使用。
-ignoreLogs = ["error-remote-getjson"]
 # defaultContentLanguageInSubdir = true
 
 [outputs]

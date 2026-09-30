@@ -55,6 +55,8 @@ jobs:
 
     - name: Build production website
       if: ${{ github.event_name != 'pull_request' && github.ref == 'refs/heads/main' }}
+      env:
+        HUGO_IGNORELOGS: '["error-remote-getjson"]'
       run: yarn build
 
     - name: Setup Pages
