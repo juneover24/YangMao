@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "releaseId": "20260921-pan123-v3-fix-v1",
   "toolKey": "skin_pic_part",
-  "createdAt": "2026-09-20T17:11:27.591Z",
+  "createdAt": "2026-09-30T07:30:11.066Z",
   "enc": "A256GCM",
   "aad": {
     "version": 2,
@@ -36,7 +36,7 @@
       "kid": "cloudflare-primary",
       "alg": "RSA-OAEP-256",
       "label": "beautify.mp:v2:20260921-pan123-v3-fix-v1:skin_pic_part",
-      "wrappedKey": "EAsDgVpGBJQdLcWmtYmPWWjWVQ9nyy+fU8mbS8x/OZzpKjD1HzwrcREeimak6qbDrrZGuM9pHaGyqvtvsctTfQMI+V+pgRQJJf6LqI9qQnTEQjGKZMUOwCc9C26Z+912X+MsX5ibInq+FaltQSV6mFZbmAY+V4q681e/OgizkTHDYOEdEhBlxEWDeEXMdETo+tKbyMkP7XQv0o5GV/zemSHef2LszS18l5BDtgMFXMuI/vnz1iUAygrFODyVlX5Ia6bdPJKrSF235ukCgIGEwwx0ObMq1JfJLvjP81cQkyi1Bf0kBwLbzKB3w2OG++2SnRehsm6X8zLD8I4YcU48huzWBOVQdqw7Z16voKgX2WvoqQBjE0DakLujwe3BuTTNaF4Dju/anAk1d+uhKi5iChl9cc7nYGxQVJQWicmVjGLIkdHO+JZsKQ9qpC3q8oEt6GD3Rdnsv3fo7nABhA+cOWtbcEjaQruL+5l42lrYFx/J24vrDuoAmxuoeXs2NuPe"
+      "wrappedKey": "bNtFTNg7jIlnLiGX9gQg6ykXjqjPerBLE0qIbbHF+gexm7B4V55q34YrZpVbJkyqcC3Vy2w+B/Z4OLB7Bkd1xl7/D5a5qgkchzTJBkLUuoalPuTILU6hK8O7xSdQSGN711k+6oiFnGSh4KOfyuM6GM0lNwoi8zCbtYks0DI7e7Xr3Eg81Otdg2B4Wt8Xw/Nr758T+Bcj1C7YgCmKy8FUvXFfZurUSPN+FdOw5g+aq1XDFSAsyZJfnBmrC7j5xcmjQAe1qR3/jY1Xnm67yqyzSf43SnaJAGsS67qywJI2KG5r4GHyia18wIHig2sJG8qHmh5wsr4O9fM/EnjoUv7GN2Ic2iWwNwtAl9IlhCgep2AHHdhbSJ/NfRJyMNItZqSdVwu2Ns+caxCgCZM14OvofdUehyHuUIzxTcEWgYju1Ve2f1WlruKyIwP0fZI+c7FrIKKfQybhVwW0eKhEDxwqQA7T10aKrfQOojZjrU4RIKYk6kCtb69Wh5W+lXm2vBkc"
     }
   ],
   "routes": {
@@ -50,9 +50,9 @@
           "mime": "text/javascript; charset=utf-8",
           "bytes": 5641,
           "sha256": "410b453e32b62bb606096b6f6646a2463235c7dd9345df7034732782ade9013e",
-          "cipherPath": "cipher/e8f0bc14b41e0550760f7b1e66a4e6cbae19fbac82010fc77ae4ceba2078a055.bin",
-          "cipherSha256": "e8f0bc14b41e0550760f7b1e66a4e6cbae19fbac82010fc77ae4ceba2078a055",
-          "iv": "i2LcDa6JactI01ky",
+          "cipherPath": "cipher/76e819977f4940680e476cce7f1f0a19cb489d482fb9a5408a793c6f7844c0ba.bin",
+          "cipherSha256": "76e819977f4940680e476cce7f1f0a19cb489d482fb9a5408a793c6f7844c0ba",
+          "iv": "4mMGCf7t2W7OQ0Bk",
           "aadVersion": 2
         }
       ]
@@ -67,9 +67,9 @@
           "mime": "text/html; charset=utf-8",
           "bytes": 4068,
           "sha256": "a6ffa9bf508c84a0d3afd6cd00971e66384568a779d135104f135d3676077bcb",
-          "cipherPath": "cipher/45c6cc46596e11f34a8a659d9ae30198ae1b1dce57ba4090187aadb3dad380ca.bin",
-          "cipherSha256": "45c6cc46596e11f34a8a659d9ae30198ae1b1dce57ba4090187aadb3dad380ca",
-          "iv": "wVBRmb7/JDSENNFB",
+          "cipherPath": "cipher/4610cda8d9a31901d98600c5a5a48a3b450a68a4e7b2ccc03c61b44c0f12b1d8.bin",
+          "cipherSha256": "4610cda8d9a31901d98600c5a5a48a3b450a68a4e7b2ccc03c61b44c0f12b1d8",
+          "iv": "Mks8miFfwgiB7ujh",
           "aadVersion": 2
         }
       ]
@@ -84,9 +84,9 @@
           "mime": "text/css; charset=utf-8",
           "bytes": 4958,
           "sha256": "242466be5712afbc58f2f071588e2ca6fc51c46c598e20c80a2f27b7cee4b0c6",
-          "cipherPath": "cipher/606c0987dd07ea866c4d944b207d600eb50f2365b16ca9e2eb1f49de8079bcf0.bin",
-          "cipherSha256": "606c0987dd07ea866c4d944b207d600eb50f2365b16ca9e2eb1f49de8079bcf0",
-          "iv": "lldEG+6ecBDIFv10",
+          "cipherPath": "cipher/305b9c1c822e55355656edb06b8aff94f4568d64a538ffe25212a9827bd36a5a.bin",
+          "cipherSha256": "305b9c1c822e55355656edb06b8aff94f4568d64a538ffe25212a9827bd36a5a",
+          "iv": "5g3cAjvYC0lYUp4E",
           "aadVersion": 2
         }
       ]
@@ -101,9 +101,9 @@
           "mime": "text/javascript; charset=utf-8",
           "bytes": 10920,
           "sha256": "7d5fdafb315302bd33467045d940824c43193db42eceda959b257865a2dc4318",
-          "cipherPath": "cipher/92f319d952de5acbdc7a32b08dead97aca14fdbfc2ee6a1b57d9585d02732b63.bin",
-          "cipherSha256": "92f319d952de5acbdc7a32b08dead97aca14fdbfc2ee6a1b57d9585d02732b63",
-          "iv": "IDaSiBgbn2AB0TvN",
+          "cipherPath": "cipher/dc49adcaed658d63fb2a7a6a2017e92706446d8a15d848fbf49e0dda9cdc1cc1.bin",
+          "cipherSha256": "dc49adcaed658d63fb2a7a6a2017e92706446d8a15d848fbf49e0dda9cdc1cc1",
+          "iv": "di2xnxVf2U70ady6",
           "aadVersion": 2
         }
       ]
@@ -118,9 +118,9 @@
           "mime": "text/javascript; charset=utf-8",
           "bytes": 8588,
           "sha256": "6da264c178aa88d5a1a774fe1eac8d6f2e32c0063bd68e3f98e49500e1d05cd8",
-          "cipherPath": "cipher/3efc147f170a91520abf9de5a8d3def7832db106758510c46a036c9c8b1defad.bin",
-          "cipherSha256": "3efc147f170a91520abf9de5a8d3def7832db106758510c46a036c9c8b1defad",
-          "iv": "DLaB4ciz97rEEHUd",
+          "cipherPath": "cipher/e6840a78f68e9441be10a14775f5ab8bdbe953daf68315db3ac67ab2c8777a7a.bin",
+          "cipherSha256": "e6840a78f68e9441be10a14775f5ab8bdbe953daf68315db3ac67ab2c8777a7a",
+          "iv": "OR+MMZfS/d4Di/to",
           "aadVersion": 2
         }
       ]
@@ -171,6 +171,6 @@
   "signature": {
     "kid": "manifest-primary",
     "alg": "ES256",
-    "value": "D0fv/QivkgS/clzftahOm9NIAtss1eOc6vRLjOrYlqDusdWVenRQfGYRWw8XhR3O5RXDDYwFqc+kDTPrWhdLDg=="
+    "value": "BlTGvMnK18hIk0BjOmKR2L2QOw/4nF7m9HFNq1TkW3xE9Gvf/onckSudDl0rN4uR9AP9sJNgFytaHsnhEKTO5g=="
   }
 }
