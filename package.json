@@ -63,7 +63,7 @@
     "stylelint-config-standard-scss": "^3.0.0"
   },
   "otherDependencies": {
-    "hugo": "0.92.1"
+    "hugo": "0.126.1"
   },
   "pre-commit": [
     "lint"

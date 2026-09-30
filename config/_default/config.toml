@@ -82,3 +82,9 @@ rel  = "sitemap"
   [[module.mounts]]
     source = "node_modules/mermaid"
     target = "assets/js/vendor/mermaid"
+
+# 贡献者 API（api.xuann.wang）域名已失效，resources.GetRemote 拉取失败属预期；
+# 不忽略会导致 hugo 以 "logged N error(s)" 退出、阻断 Pages 构建。
+# 注意：ignoreErrors 在 Hugo 0.92.1 上不生效（0.124+ 别名映射到 ignoreLogs），
+# 必须配合 package.json otherDependencies.hugo 升级版本使用。
+ignoreErrors = ["error-remote-getjson"]
