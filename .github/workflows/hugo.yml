@@ -25,18 +25,18 @@ jobs:
     if: "!(github.event_name == 'push' && contains(github.event.head_commit.message, '[skip ci]'))"
     steps:
     - name: Check out project
-      uses: actions/checkout@v4
+      uses: actions/checkout@v2
       with:
         fetch-depth: 0
         
     - name: Set up Node.js
-      uses: actions/setup-node@v4
+      uses: actions/setup-node@v2
 
     - name: Get yarn cache directory path
       id: yarn-cache-dir-path
       run: echo "::set-output name=dir::$(yarn cache dir)"
 
-    - uses: actions/cache@v4
+    - uses: actions/cache@v2
       id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
       with:
         path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
@@ -60,11 +60,11 @@ jobs:
     - name: Setup Pages
       if: ${{ github.event_name != 'pull_request' && github.ref == 'refs/heads/main' }}
       id: pages
-      uses: actions/configure-pages@v5
+      uses: actions/configure-pages@v2
     
     - name: Upload artifact
       if: ${{ github.event_name != 'pull_request' && github.ref == 'refs/heads/main' }}
-      uses: actions/upload-pages-artifact@v3
+      uses: actions/upload-pages-artifact@v1
       with:
         path: ./public
 
@@ -79,4 +79,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v1
