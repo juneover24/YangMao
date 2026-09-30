@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "releaseId": "20260921-pan123-v3-fix-v1",
   "toolKey": "download_bridge",
-  "createdAt": "2026-09-30T07:30:11.123Z",
+  "createdAt": "2026-09-20T17:11:27.627Z",
   "enc": "A256GCM",
   "aad": {
     "version": 2,
@@ -33,7 +33,7 @@
       "kid": "cloudflare-primary",
       "alg": "RSA-OAEP-256",
       "label": "beautify.mp:v2:20260921-pan123-v3-fix-v1:download_bridge",
-      "wrappedKey": "roYtGtINCK5b2pG9x0c/uG5U9MfqHwIoRa7plmQfbv3tJwUrr5DmP9oz5RNw1EvL2QqOv3RM5Mz9YTu/Gef9rs1RY8OuNeIcSk4uvTQ+jzQiKpcfCP9AxcR0NxP9mQujSvhr/Sam8pHGEtgP5vJ++8fF82/+TLdFVAWYJhfCxDunG8Ha/NjFBXy6Hfne0FTQZOzRwXG2M+9qNeLWaFZ8VYo+9UCwf+sUHj0zd/HEBPvNL9RyB0w7r9UQrWMIwupi3hCj6kmjmK7WWdUrkskYXuVw7pDoyHHTOL513KqvPhKRSrjwAaj69OlnSX6v6yL+EQTotBOP4bzDZyFPCdXRgFbTLgdD7DesgfOVRFIKF5vX86J16twifCi7VQKZYXhtxyeZ1bsebjog/Yf+YeUgpiW4t+KDf4DaQIk/ut+B3nGJzKpj5ziaa/J1Allh0Q7RN6z3XGBcaTTSB40UYNuKW52hkfzfg7niWK3BYt2kWLOVY11gzgmgqSJq+F7nn7Vy"
+      "wrappedKey": "YjMrIK/ioY5DF++DzrOBJ8+DXNu706eNScf/R7T1/r7XnW6ivJb0tATt6ZI54tBQdDx4F0XFRRal5twS5zUGoIoesASdDUO3Wo+s86NPCNOLQYrcTMA6kssTRB5jmMzGbsTTEyNEMgD/OwX/v4A2vLUZhFCUh+kpibw2CGrXa8Mh1vR4GgX5U0x29nLZtl9U9g18vdy/w6r+qXsfnBL6d+91PSZpb4AztMOT8Bm2QvcvoabefQSjMrkgdEkuwCyzuTnOHQyFmkwUlEhHVf6K5zT2LIIWWASOetpTBIayJYFkTmouWT0C04pjJCx/sd430uVdUH7OlmmNueQx77hyMzwpDex0MU1aU815BCkCjU+Kbj3CoZc0PqRtCq8kGy0pyXBXdJ4IpRW7N3bwKCOK0mnW7krffLf2Xl71azBC885B6N50K/DAGK2Ww7FxTlLOaf8vrDw7ooE/Y/TOTLcd6GJH/KDkj6+seO+Lg7x5lxhd+ZenTJ3aZhjQbBVN46hZ"
     }
   ],
   "routes": {
@@ -47,9 +47,9 @@
           "mime": "text/html; charset=utf-8",
           "bytes": 892,
           "sha256": "449c31c81a347c2d2dc1e1bd71aa21498408b6f501e5579b1a7aac328048bdfd",
-          "cipherPath": "cipher/4b6b0f843c51921030d25162e0be8fbc8b582af6322be379637b90cc1afcb76e.bin",
-          "cipherSha256": "4b6b0f843c51921030d25162e0be8fbc8b582af6322be379637b90cc1afcb76e",
-          "iv": "U0FiOvKSKc5Fe4gC",
+          "cipherPath": "cipher/a68aef520301f413b8f93defd4a7cdbbfc49d438cdf9b814d43e5f3f52a65a7f.bin",
+          "cipherSha256": "a68aef520301f413b8f93defd4a7cdbbfc49d438cdf9b814d43e5f3f52a65a7f",
+          "iv": "0wVwxhe1hpn0Zi97",
           "aadVersion": 2
         }
       ]
@@ -64,9 +64,9 @@
           "mime": "text/css; charset=utf-8",
           "bytes": 1179,
           "sha256": "f22141278f2eca3e6a9ccb360ae3a66474c4d42405d21c7e8a870c0d94b11421",
-          "cipherPath": "cipher/5ca3d4d492ea62bb9d4cbb95a7a33177a5aa0dcdb6a8a47ce6e8cd78741be9c3.bin",
-          "cipherSha256": "5ca3d4d492ea62bb9d4cbb95a7a33177a5aa0dcdb6a8a47ce6e8cd78741be9c3",
-          "iv": "i1OUVS1HzKe5M+YB",
+          "cipherPath": "cipher/01a275326918b4035a545283f2f5ee731eeb858889b75b6cfa1f52ec61be3f48.bin",
+          "cipherSha256": "01a275326918b4035a545283f2f5ee731eeb858889b75b6cfa1f52ec61be3f48",
+          "iv": "OFWvC/I9E1RiqaFf",
           "aadVersion": 2
         }
       ]
@@ -76,14 +76,14 @@
       "cacheMode": "no-store",
       "parts": [
         {
-          "id": "asset-c94fdea0e496d80428c1",
+          "id": "asset-96e06e155b8121e0a652",
           "kind": "owned",
           "mime": "text/javascript; charset=utf-8",
-          "bytes": 57701,
-          "sha256": "c94fdea0e496d80428c1963c9340bc052a841aeb20f6a8a4834646ca058243a4",
-          "cipherPath": "cipher/39009d77b9781a376ad586f48ed25354822f8f61436bdd26136627a83992d036.bin",
-          "cipherSha256": "39009d77b9781a376ad586f48ed25354822f8f61436bdd26136627a83992d036",
-          "iv": "1Nj9tvWRkf3qRVNm",
+          "bytes": 43155,
+          "sha256": "96e06e155b8121e0a652db2ec156c912217f81fbdf608f3290dbce7781b273e3",
+          "cipherPath": "cipher/11ed281e8c0c7e3b4f9ed33381568444cc6854a15e31e89ce3090ace5bb3e891.bin",
+          "cipherSha256": "11ed281e8c0c7e3b4f9ed33381568444cc6854a15e31e89ce3090ace5bb3e891",
+          "iv": "HKINDQ5ipC/qsZqB",
           "aadVersion": 2
         }
       ]
@@ -106,6 +106,6 @@
   "signature": {
     "kid": "manifest-primary",
     "alg": "ES256",
-    "value": "m6r2JD5oH9immoLGdDBwYDtiOHLyxiwlquvuqnpSRksy7mhTUUXZ74hpJtNM9Pa3+Z5sss4ZWL+aQUmnZUevvw=="
+    "value": "8sr909F51WPPNzVaneb0Cogy8lHKWZXwCL+ScpkP43Hbgq1fLyoneTC5dQWjlldIRSedBBaf+OzAl4e+8PDYrQ=="
   }
 }
