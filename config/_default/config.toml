@@ -82,3 +82,6 @@ rel  = "sitemap"
   [[module.mounts]]
     source = "node_modules/mermaid"
     target = "assets/js/vendor/mermaid"
+
+# 贡献者 API（api.xuann.wang）偶发不可达不应阻断 Pages 构建（2026-09-30）
+ignoreErrors = ["error-remote-getjson"]
