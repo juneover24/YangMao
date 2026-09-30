@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 2,
+  "releaseId": "20260921-pan123-v3-fix-v1",
+  "toolKey": "manage_direct_upload",
+  "createdAt": "2026-09-30T07:30:11.128Z",
+  "enc": "A256GCM",
+  "aad": {
+    "version": 2,
+    "fields": [
+      "releaseId",
+      "toolKey",
+      "logicalPath",
+      "part.id",
+      "part.kind",
+      "part.mime",
+      "part.bytes",
+      "part.sha256"
+    ]
+  },
+  "entry": {
+    "html": "manage-direct-upload/index.html",
+    "styles": [],
+    "scripts": [
+      "fetch-522-retry.js",
+      "font-adjustment-local/vendor/jweixin-1.6.0.js",
+      "manage-direct-upload/app.js"
+    ],
+    "workers": []
+  },
+  "recipients": [
+    {
+      "kid": "cloudflare-primary",
+      "alg": "RSA-OAEP-256",
+      "label": "beautify.mp:v2:20260921-pan123-v3-fix-v1:manage_direct_upload",
+      "wrappedKey": "ou3oJ+QZ1qkWRFeZ/PG367fZG0eQ/3g1FzP4aGw99q5aO9Tw87hBo8M9mdwWAg7JtVCI5XyjM23CQZN5CtlUHR1WLocOzBEqQCvvSeqPzhCllcWjZ2mf9umwMERVfNk4PUtHUedQgLuRb1f+PYZqUlLDe1HMyu7SEyONGJ4cyMbKMpUxaOU73Fz/KvVZldMqQtA5zvxiXtjK1VrwQZq94kBDE9su8sCLkJFFYfOEmr0CA82Pyfb+BUs3j7hH98NHEEKntqNjkhro/aMjuNtZjHqu8XnPaGRNfI9cEIL8EVAmSQ4/txeLnmFn7Lyu1fPC4yRdMD6ba+XfptyaiTuVvxhMzxX9qxLX7iK/x/ddQulWsF/fTtPGZSkMKGddmh2UFftnprsBiixLdxQkWFvzZW551h9THoCBkRHV3n3pb/dnybdu/fWEK36VSGMDtlqDH2soRdLXcXafkX+Ju3ugzLE5sPgCTMSJl7kQD16+QLVUy/FknY8+dALrwlN6NjBM"
+    }
+  ],
+  "routes": {
+    "fetch-522-retry.js": {
+      "mime": "text/javascript; charset=utf-8",
+      "cacheMode": "no-store",
+      "parts": [
+        {
+          "id": "asset-410b453e32b62bb60609",
+          "kind": "owned",
+          "mime": "text/javascript; charset=utf-8",
+          "bytes": 5641,
+          "sha256": "410b453e32b62bb606096b6f6646a2463235c7dd9345df7034732782ade9013e",
+          "cipherPath": "cipher/f7ebd6e372bfd2a9d482668f2f4237c39c1ab84fe7c8f16d316f8b1835032f24.bin",
+          "cipherSha256": "f7ebd6e372bfd2a9d482668f2f4237c39c1ab84fe7c8f16d316f8b1835032f24",
+          "iv": "BHoTXDMvP8tIi4L3",
+          "aadVersion": 2
+        }
+      ]
+    },
+    "manage-direct-upload/index.html": {
+      "mime": "text/html; charset=utf-8",
+      "cacheMode": "no-store",
+      "parts": [
+        {
+          "id": "asset-f7c81d6b2477dcb8f578",
+          "kind": "owned",
+          "mime": "text/html; charset=utf-8",
+          "bytes": 4733,
+          "sha256": "f7c81d6b2477dcb8f578d70be6baf513fd22e6e8c0577f73d3b0673bf71f8629",
+          "cipherPath": "cipher/595248458d335356df5dbeb6f9fa94042880a835037b6af563b468d70c0af9ab.bin",
+          "cipherSha256": "595248458d335356df5dbeb6f9fa94042880a835037b6af563b468d70c0af9ab",
+          "iv": "T9ENazwf4PL9mmGv",
+          "aadVersion": 2
+        }
+      ]
+    },
+    "manage-direct-upload/app.js": {
+      "mime": "text/javascript; charset=utf-8",
+      "cacheMode": "no-store",
+      "parts": [
+        {
+          "id": "asset-60ec5e481f8adc4a0e5a",
+          "kind": "owned",
+          "mime": "text/javascript; charset=utf-8",
+          "bytes": 165257,
+          "sha256": "60ec5e481f8adc4a0e5a9f331d71838cfce08e1ccf5b6961aec4de6ad935c128",
+          "cipherPath": "cipher/b99adaf00a0552c67ff14325e945929fc464e02e5eb38134ae6a55e2f3072e9b.bin",
+          "cipherSha256": "b99adaf00a0552c67ff14325e945929fc464e02e5eb38134ae6a55e2f3072e9b",
+          "iv": "hN4WP4vtdzqpCQUC",
+          "aadVersion": 2
+        }
+      ]
+    },
+    "font-adjustment-local/vendor/jweixin-1.6.0.js": {
+      "mime": "text/javascript; charset=utf-8",
+      "cacheMode": "immutable",
+      "parts": [
+        {
+          "id": "asset-0f17c4f7daf51a49a962",
+          "kind": "vendor",
+          "mime": "text/javascript; charset=utf-8",
+          "bytes": 12938,
+          "sha256": "0f17c4f7daf51a49a9627714ad2da6c037352442699ba8ceca68b7c6dc0b1dba",
+          "publicPath": "public/font-adjustment-local/vendor/jweixin-1.6.0.js"
+        }
+      ]
+    }
+  },
+  "signature": {
+    "kid": "manifest-primary",
+    "alg": "ES256",
+    "value": "xGcYXDAr3TdsoYAH3r9YPc277X7CRXjGJuHgxRbTyg3FC3cyNLj+ygPbp+ZJze1vFT3cXs4E3YK/+k/mDzppoQ=="
+  }
+}
