@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 2,
+  "releaseId": "20260930-1",
+  "toolKey": "manage_direct_upload",
+  "createdAt": "2026-09-30T10:04:09.241Z",
+  "enc": "A256GCM",
+  "aad": {
+    "version": 2,
+    "fields": [
+      "releaseId",
+      "toolKey",
+      "logicalPath",
+      "part.id",
+      "part.kind",
+      "part.mime",
+      "part.bytes",
+      "part.sha256"
+    ]
+  },
+  "entry": {
+    "html": "manage-direct-upload/index.html",
+    "styles": [],
+    "scripts": [
+      "fetch-522-retry.js",
+      "font-adjustment-local/vendor/jweixin-1.6.0.js",
+      "manage-direct-upload/app.js"
+    ],
+    "workers": []
+  },
+  "recipients": [
+    {
+      "kid": "cloudflare-primary",
+      "alg": "RSA-OAEP-256",
+      "label": "beautify.mp:v2:20260930-1:manage_direct_upload",
+      "wrappedKey": "duqIbDZNQ08s4a+XhLyUqx8pqjQFvWU7Hutur8yPq3lRXRfiREJa6tKc8zjnEgyguOY0GWpp7b6TgFkzL46tXedar7zLQMfhtlT4VxOLOMmk82/aJlduYWXKbBpFBE2H+8Y16EYcvUg+vgVyIWQIygFlwbdW/fpRnrTWzlmsyUOS9036mS8QvjkrvojJohIHVYTsgy2blqKDLYBAx5TFyAbp4jXByRzVcPmgDl30EVIoAjvsiIT1mJ9wfXe+4IPPqph0/cXj25qiv8CDOECSYo+QeC32P0Ai64mZ/tJbBFq2gqjC4r0Szo8nCqV9Cs9BIF7j1Z13UkoCk3cRfpJrs5V0tiBuPuQEWZJE6+owcFPGvy0lpj957Q3/d25qrRnY2XvfbOm1INOZCY/Em91eBY1HjLjPdOIw0xLexEOsrHJlo3XJ+DA1ONFn5RGCYRdyCh+l1DZuSXVHHEXATfWL0STbHU8L6DAUw7Jhf8DFXrtNS4D3mLA3PEKjUTd0WXSa"
+    }
+  ],
+  "routes": {
+    "fetch-522-retry.js": {
+      "mime": "text/javascript; charset=utf-8",
+      "cacheMode": "no-store",
+      "parts": [
+        {
+          "id": "asset-410b453e32b62bb60609",
+          "kind": "owned",
+          "mime": "text/javascript; charset=utf-8",
+          "bytes": 5641,
+          "sha256": "410b453e32b62bb606096b6f6646a2463235c7dd9345df7034732782ade9013e",
+          "cipherPath": "cipher/faaa9fdbef2fc39120ec8041f39ed40b51aed90d9977e041640f60fe8e1730cb.bin",
+          "cipherSha256": "faaa9fdbef2fc39120ec8041f39ed40b51aed90d9977e041640f60fe8e1730cb",
+          "iv": "NHm+9gy/LG95YKz5",
+          "aadVersion": 2
+        }
+      ]
+    },
+    "manage-direct-upload/index.html": {
+      "mime": "text/html; charset=utf-8",
+      "cacheMode": "no-store",
+      "parts": [
+        {
+          "id": "asset-f7c81d6b2477dcb8f578",
+          "kind": "owned",
+          "mime": "text/html; charset=utf-8",
+          "bytes": 4733,
+          "sha256": "f7c81d6b2477dcb8f578d70be6baf513fd22e6e8c0577f73d3b0673bf71f8629",
+          "cipherPath": "cipher/f5d7b4a46eb6955bc6e2d649ed84284824fbb864370e22e3f867b0d7e02411a3.bin",
+          "cipherSha256": "f5d7b4a46eb6955bc6e2d649ed84284824fbb864370e22e3f867b0d7e02411a3",
+          "iv": "sL7+Hjefwv2Uu0fG",
+          "aadVersion": 2
+        }
+      ]
+    },
+    "manage-direct-upload/app.js": {
+      "mime": "text/javascript; charset=utf-8",
+      "cacheMode": "no-store",
+      "parts": [
+        {
+          "id": "asset-60ec5e481f8adc4a0e5a",
+          "kind": "owned",
+          "mime": "text/javascript; charset=utf-8",
+          "bytes": 165257,
+          "sha256": "60ec5e481f8adc4a0e5a9f331d71838cfce08e1ccf5b6961aec4de6ad935c128",
+          "cipherPath": "cipher/d25b32945ede204e405fa71533983af9a90c964c72b53ebd2c3b7f2ef5de4bee.bin",
+          "cipherSha256": "d25b32945ede204e405fa71533983af9a90c964c72b53ebd2c3b7f2ef5de4bee",
+          "iv": "DkL4LkqE7M/vhH7u",
+          "aadVersion": 2
+        }
+      ]
+    },
+    "font-adjustment-local/vendor/jweixin-1.6.0.js": {
+      "mime": "text/javascript; charset=utf-8",
+      "cacheMode": "immutable",
+      "parts": [
+        {
+          "id": "asset-0f17c4f7daf51a49a962",
+          "kind": "vendor",
+          "mime": "text/javascript; charset=utf-8",
+          "bytes": 12938,
+          "sha256": "0f17c4f7daf51a49a9627714ad2da6c037352442699ba8ceca68b7c6dc0b1dba",
+          "publicPath": "public/font-adjustment-local/vendor/jweixin-1.6.0.js"
+        }
+      ]
+    }
+  },
+  "signature": {
+    "kid": "manifest-primary",
+    "alg": "ES256",
+    "value": "Ccg13UuTDM32RUzUBk/XyoDvovgf00pJGwRP2amIsAMiQhP14zJpZ6g9OjdmtkjivOrRefpKu0WmCwvPne0iBA=="
+  }
+}
